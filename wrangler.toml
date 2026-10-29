@@ -1,0 +1,19 @@
+name = "enoc-admin-api"
+main = "worker/index.js"
+compatibility_date = "2026-10-28"
+account_id = "5366d6a5a91376e763d4dfe36d0ffe18"
+
+[vars]
+ADMIN_USERNAME = "enoc365.5@gmail.com"
+R2_PUBLIC_BASE_URL = "https://pub-55cf8e552fa04ed2a2e9fef1bab8be0f.r2.dev"
+R2_UPLOADS_ENABLED = "true"
+# Cashea mutations and manual no-stock sale remain disabled unless explicitly configured.
+
+[[d1_databases]]
+binding = "DB"
+database_name = "enoc-production-migration"
+database_id = "231fd27f-a838-4845-925c-527ccdb4f90d"
+
+[[r2_buckets]]
+binding = "ENOC_IMAGES"
+bucket_name = "enoc-product-images"
